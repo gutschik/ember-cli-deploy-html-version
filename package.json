@@ -1,0 +1,52 @@
+{
+  "name": "ember-cli-deploy-html-version",
+  "version": "0.0.1",
+  "description": "An ember-cli-deploy plugin to add a version attribute to the html tag of the index.html page.",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "ember build",
+    "start": "ember server",
+    "test": "node tests/runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gutschik/ember-cli-deploy-html-version.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": {
+    "name": "Benjamin Gutschik"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "broccoli-asset-rev": "^2.4.2",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "ember-cli": "^2.4.3",
+    "glob": "^5.0.5",
+    "mocha": "^2.2.4",
+    "mocha-jshint": "^2.2.5",
+    "multiline": "^1.0.2",
+    "node-fs": "^0.1.7",
+    "loader.js": "^4.0.1"
+  },
+  "keywords": [
+    "ember-addon",
+    "ember-cli-deploy-plugin"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "cheerio": "^0.19.0",
+    "minimatch": "v3.0.0",
+    "ember-cli-deploy-plugin": "0.2.5",
+    "rsvp": "^3.0.18"
+  },
+  "bugs": {
+    "url": "https://github.com/github.com/gutschik/ember-cli-deploy-html-version/issues"
+  },
+  "homepage": "https://github.com/github.com/gutschik/ember-cli-deploy-html-version#readme"
+}
